@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+E:\Coding\LinkedIn Learning Java\.metadata\.plugins\org.eclipse.jdt.core
-696981129.index
-2853286736.index
-4168605993.index
-1865797976.index
