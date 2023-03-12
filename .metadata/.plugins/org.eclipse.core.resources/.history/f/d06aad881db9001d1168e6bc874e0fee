@@ -1,0 +1,16 @@
+package linkedInLearningJavaAlgorithms;
+
+public class SearchInBST {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BST bst = new BST();
+		
+		bst.insert(5);
+		bst.insert(3);
+		bst.insert(6);
+		bst.insert(1);
+		bst.insert(8);
+	}
+
+}

@@ -1,0 +1,68 @@
+	## Interface Implementations  ##
+	
+- Implementation Extends
+- Interface Implements
+
+** Interfaces **
+-Map
+-Collection
+ - List
+ - Set
+   - SortedSet
+ - Queue
+   - Deque
+   
+** Implementations **
+- HashMap
+- LinkedHashMap
+- ArrayList
+- Vector
+- Stack
+- LinkedList
+- ArrayDeque
+- PriorityQueue
+- TreeSet
+- HashSet
+- LinkedHashSet
+
+** Naming Scheme **
+
+	<implementation Style> <Interface>
+eg : ArrayList			=> Array is implementation and List is the Interface
+	 HashMap			=> Hash is Implementation and Map is Interface
+	 LinkedHashMap		=> Linked and Hash are both Implementations and Map is the Interface
+	 
+=> Collection Interface is the root Interface extended by most of the collections types
+=> Collection Interfaces are Generic
+
+** Collection Methods **
+
+-> boolean add(E e)  = Adds an individual element to a collection
+-> boolean addAll(Collection<? extends E> e) = Adds all elements in the provided collection to the collection.
+-> boolean remove(Object o) = removes a single element from a collection
+-> boolean removeAll(Collection<?> c) = removes all elements provided in the collection from the collection
+-> void clear() = removes all elements within a collection
+-> boolean retainAll(Collection<?> c) = removes the collection elements not found in the provided collection
+-> boolean contains(Object o) = check if an element is present in the given collection
+-> boolean containsAll(Collection<?> c) = checks if all all elements given in the provided collection are present in the collection
+-> boolean isEmpty() = checks if given collection consists of any elements
+-> int size() = returns an integer that determines the number of elements in a collection.
+
+=> num1 == num2 is different from num1.equals(num2)
+
+** Iteration **
+-> lopps
+-> Iterables
+-> Streams
+
+
+
+
+
+
+
+
+
+
+
+

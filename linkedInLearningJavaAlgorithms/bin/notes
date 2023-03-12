@@ -1,0 +1,20 @@
+optimizing the algorithms plays a major role in coding new algorithms as this increases the efficiency of an algorithm
+
+example => searching using Binary Search
+		   Sorting using Merge Sort
+		   finding max elements from 3 numbers
+		   
+Best case 		||		Worst Case		|| 		Average Case
+
+** Time complexities **
+
+O(1)
+O(log n)
+O(n)
+O(n^2)
+
+
+
+## Tactics ##
+1. Normalize your input
+2. 
